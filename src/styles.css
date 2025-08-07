@@ -55,6 +55,18 @@ img {
 
 body {
 	padding: 20px;
+	background-color: rgb(69, 69, 69);
+	color: rgb(255, 230, 199);
+	text-align: center;
+}
+
+h1,
+h2 {
+	color: rgb(255, 96, 0);
+}
+
+h3 {
+	color: #ffa559;
 }
 
 body,
@@ -73,4 +85,25 @@ h2,
 p {
 	margin-top: 15px;
 	margin-bottom: 15px;
+}
+nav {
+	display: flex;
+	gap: 10px;
+}
+
+button {
+	border: none;
+	border-radius: 20px;
+	padding: 5px 30px;
+	color: #ffa559;
+	background-color: rgb(63, 60, 60);
+}
+
+button:hover {
+	background-color: rgb(29, 28, 28);
+}
+
+button:active {
+	transform: translateY(1px);
+	background-color: rgb(18, 18, 18);
 }
