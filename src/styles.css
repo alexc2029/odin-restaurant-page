@@ -50,4 +50,27 @@ ul {
 img {
 	width: 400px;
 	height: auto;
+	margin-bottom: 20px;
+}
+
+body {
+	padding: 20px;
+}
+
+body,
+#content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+p {
+	max-inline-size: 66ch;
+}
+h1,
+h2,
+p {
+	margin-top: 15px;
+	margin-bottom: 15px;
 }

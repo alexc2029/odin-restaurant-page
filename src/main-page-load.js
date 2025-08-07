@@ -2,6 +2,7 @@ import Image from "./restaurant.jpg";
 import { addTextElement } from "./dom-functions.js";
 export function pageLoad() {
 	const contentDiv = document.getElementById("content");
+	contentDiv.textContent = "";
 	addTextElement("h1", contentDiv, "Welcome to King Burger!");
 	const restaurantImage = document.createElement("img");
 	restaurantImage.src = Image;
