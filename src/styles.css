@@ -46,3 +46,8 @@ h6 {
 ul {
 	list-style-type: none;
 }
+
+img {
+	width: 400px;
+	height: auto;
+}
